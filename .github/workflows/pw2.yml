@@ -9,11 +9,11 @@ name: Make PassWall2 run files
 
 on:
   workflow_dispatch:
-#    inputs:
-#      package_version:
-#        description: '这里是包版本'
-#        required: false
-#        default: 'packages-24.10'  
+    inputs:
+      package_version:
+        description: '这里是包版本'
+        required: false
+        default: 'packages-24.10'  
 
 jobs:
   build:
